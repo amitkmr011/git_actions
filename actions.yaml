@@ -1,4 +1,4 @@
-name: action-cicd
+name: actioncicd
 on:
   workflow_dispatch:
 jobs: 
