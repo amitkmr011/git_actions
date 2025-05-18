@@ -1,0 +1,15 @@
+name: actioncicd
+on:
+  workflow_dispatch:
+jobs: 
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+     - name: checking code 
+       uses: actions/checkout@v4
+     - name: install jdk setup jdk
+       uses: actions/setup-java@v4
+       with:
+          java-version: 17
+          distribution: 'temurin'
+          cache: maven
