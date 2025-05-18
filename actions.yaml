@@ -1,6 +1,6 @@
 name: action-cicd
 on:
-   workflow_dispatch:
+  workflow_dispatch:
 jobs: 
   compile:
     runs-on: ubuntu-latest
